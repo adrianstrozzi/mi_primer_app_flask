@@ -1,0 +1,4 @@
+# Se tuvo que actualizar Flask a la versión 2.3 por que la versión en el curso (1.1.2) daba error.
+flask==2.3
+requests>=2.24.0
+beautifulsoup4
