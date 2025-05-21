@@ -1,16 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>To Do App</title>
 </head>
 
 <body>
-  <h1>Hola mundo</h1>
-  <p> Bienvenido a mi primera aplicación de flask, </p>
-  <p> durante el desarrollo de la misma nos la pasaremos muy bien. </p>
+  <h1>To Do App</h1>
+  <button>Agregar nuevo pendiente</button>
+
+  <h3>Pendientes</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Acción</th>
+        <th>Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Acabar Programación Avanzada</td>
+        <td>Me quedan 4 medallas.</td>
+        <td><button>Mover a "En proceso"</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>En proceso</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Acción</th>
+        <th>Eliminar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Dedicar más tiempo al día a estudiar</td>
+        <td>Estoy registrando 1 hr diaria.</td>
+        <td><button>Mover a "Finalizado"</button></td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h3>Finalizado</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Nombre</th>
+        <th>Descripción</th>
+        <th>Acción</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Salir a caminar.</td>
+        <td>He salido a caminar 2 veces esta semana.</td>
+        <td><button>Eliminar</button></td>
+      </tr>
+    </tbody>
+  </table>
 </body>
 
 </html>
